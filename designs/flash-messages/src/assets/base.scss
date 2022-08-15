@@ -32,6 +32,17 @@
     --section-gap: 160px;
 }
 
+:root {
+    --fm-danger-color: #ff2d2d;
+    --fm-danger-lighter-color: #ffe9e9;
+    --fm-info-color: #302dff;
+    --fm-info-lighter-color: #efeeff;
+    --fm-warning-color: #ffdf2d;
+    --fm-warning-lighter-color: #fffbe7;
+    --fm-success-color: #2dff7d;
+    --fm-success-lighter-color: #effff5;
+}
+
 @media (prefers-color-scheme: dark) {
      :root {
         --color-background: var(--vt-c-black);

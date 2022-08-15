@@ -2,8 +2,9 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 export interface FMessage{
+  type: "success" | "danger" | "info" | "warning"
   id?: string,
-  title: string,
+  title?: string,
   body: string
 }
 // export const useFMStore = defineStore({
